@@ -1,0 +1,89 @@
+section 
+{ 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 40px 1px rgba(247, 249, 249, 0.673); 
+    width: 40%; 
+    margin: 100px auto; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: black;
+} 
+ 
+.add-item 
+{ 
+    display: flex; 
+    justify-content: space-around; 
+} 
+.add-item input 
+{ 
+    padding: 15px; 
+    width: 75%; 
+    outline: none; 
+    background-color: transparent; 
+    border: none; 
+    border-bottom: 1px solid white; 
+    color: white; 
+} 
+ 
+.add-item input::placeholder 
+{ 
+    color: white; 
+} 
+.add-item button 
+{ 
+    padding: 15px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: rgb(4, 125, 67); 
+    color: white; 
+    width: 15%; 
+} 
+.items 
+{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    justify-content: center; 
+} 
+ 
+.item  
+{ 
+    background-color: cadetblue; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+     
+} 
+.item-name 
+{ 
+    margin-right: 100px; 
+    text-transform: capitalize; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 25px; 
+} 
+.item button 
+{ 
+     padding: 15px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: rgb(255, 0, 0); 
+    color: white; 
+    width: 15%; 
+}
+.search-bar {
+    display: inline-block;
+}
+.search-bar input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.search-bar button{
+    width: 20%;
+    height: 30px;
+    background-color: rgb(136, 136, 219);
+}
